@@ -1,0 +1,209 @@
+.colm {
+  float: left;
+  padding: 0px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0px;
+}
+
+.left {
+  width: 15%;
+}
+
+.center {
+  width: 70%;
+}
+
+.right {
+  width:15%;
+}
+
+.col {
+  float: left;
+  padding: 10px;
+  width: 45%;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 0px;
+}
+
+.content {
+    margin:0px auto;
+    padding: 50px 50px 50px 50px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.styledlist {
+  padding: 0px 0px 0px 60px;
+  font-size: 17px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: #181818;
+    color: floralwhite;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.column {
+  color: floralwhite;
+  padding:30px 30px 30px 30px;
+  float: left;
+  width: 26%;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.jumbotron {
+    padding:30px 30px 30px 30px;
+    margin:0px auto;
+    background: skyblue ;
+    color:black;
+}
+
+.address{
+    margin:0px;
+    color:#0f0f0f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Copyright {
+  color: floralwhite;
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.ul {
+  color: floralwhite;
+}
+
+/*navigation design */
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  padding-top: 1px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: skyblue;
+  color: black;
+}
+
+/*login form*/
+
+input[type=text], input[type=password], input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: skyblue;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cbox {
+  width: auto;
+  padding-top: 15px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 10px;
+}
+
+a.bottom-nav:link {
+  color: floralwhite;
+  text-decoration: none;
+}
+
+a.bottom-nav:hover {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a.bottom-nav:active {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a.bottom-nav {
+  color: floralwhite;
+}
+
+#status {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#status td, #status th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#status tr:nth-child(even){background-color: #f2f2f2;}
+
+#status tr:hover {background-color: #ddd;}
+
+#status th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #181818;
+  color: white;
+}
